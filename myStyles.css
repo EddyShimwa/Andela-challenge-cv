@@ -1,6 +1,5 @@
 body {
     background-color: white;
-    
 }
 
 
@@ -62,6 +61,8 @@ width: 180px
     display: flex;
     width: 160px;
     margin: auto;
+    border: 1px solid rgb(222, 222, 222);
+    box-shadow: 4px 10px 18px #888888;
 }
  
 #education {
@@ -107,3 +108,9 @@ width: 180px
     padding-left: 0;
     
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      display: block;
+    }
+  }
